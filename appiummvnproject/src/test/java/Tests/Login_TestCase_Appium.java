@@ -2,6 +2,7 @@ package Tests;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 import org.aspectj.lang.annotation.Before;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -9,10 +10,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import Pages.MainPageRepository_Appium;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class SampleTest { 
+public class Login_TestCase_Appium { 
 	
 	
 	private AndroidDriver driver;
@@ -32,19 +35,94 @@ public class SampleTest {
 	    driver = new AndroidDriver(remoteUrl, desiredCapabilities);
 	  }
 
-	  @Test
-	  public void sampleTest() {
-	    MobileElement el1 = (MobileElement) driver.findElementById("com.android.chrome:id/terms_accept");
-	    el1.click();
-	    MobileElement el2 = (MobileElement) driver.findElementById("com.android.chrome:id/next_button");
-	    el2.click();
-	    MobileElement el3 = (MobileElement) driver.findElementById("com.android.chrome:id/positive_button");
-	    el3.click();
+	
+	  @Test 
+	  
+	  public void sampleTest() throws InterruptedException {
+		  
+		  MainPageRepository_Appium loginpageobjects_Appium = new MainPageRepository_Appium(driver); 
+		  
+		
+		 
+		  loginpageobjects_Appium.ClickTermsAcceptButton(); 
+		  loginpageobjects_Appium.ClickNextButton(); 
+		  loginpageobjects_Appium.PositiveButton(); 
+		  loginpageobjects_Appium.ClickSearchBox(); 
+		  loginpageobjects_Appium.URLBAR();
+		  loginpageobjects_Appium.ClickenterAppium();
+		  
+		  
+		  
+		   
+		  
+		  /*
+		  
+		  MainPageRepository_Appium loginpageobjects_Appium = new MainPageRepository_Appium(driver); 
+			
+		  
+		  loginpageobjects_Appium.ClickEnter();
+			
+			
+			
+			loginpageobjects_Appium.ClickLoginButton();
+			
+			loginpageobjects_Appium.ClickLoginButtonPage1();
+			
+	        loginpageobjects_Appium.SetUsernameOnelogin();  
+	        
+	        
+	        loginpageobjects_Appium.ClickEnter();
+	        
+	        loginpageobjects_Appium.SetPasswordOneLogin();
+	        
+	        loginpageobjects_Appium.ClickEnter();
+	  */
+	     
+	  
+	  
 	  }
 
+	  
+	  @Test 
+	  
+	  public void Login_Appium() throws InterruptedException {
+		/*	
+		  Thread.sleep(3000);
+		  MainPageRepository_Appium loginpageobjects_Appium = new MainPageRepository_Appium(driver); 
+			
+		  
+	     	driver.get("https://www.steelcase.com/");
+	     	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+	     	  
+	     	driver.manage().window().maximize();
+			
+			
+			
+			loginpageobjects_Appium.ClickLoginButton();
+			
+			loginpageobjects_Appium.ClickLoginButtonPage1();
+			
+	        loginpageobjects_Appium.SetUsernameOnelogin();  
+	        
+	        
+	        loginpageobjects_Appium.ClickEnter();
+	        
+	        loginpageobjects_Appium.SetPasswordOneLogin();
+	        
+	        loginpageobjects_Appium.ClickEnter();
+	      */  
+	     
+	        
+			
+	        
+	        
+		}	
+		
+	  /*
+	  
 	  @AfterTest
 	  public void tearDown() {
 	    driver.quit();
 	  }
-
+*/
 }
