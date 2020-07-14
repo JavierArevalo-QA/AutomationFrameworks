@@ -34,9 +34,14 @@ public class MainPageRepository_Appium<MobileElement> {
 	By Password_TextBox = By.name("password");  
 	
 	
+	/*
+	TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH
+	TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSHTESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH
+	
+	TESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSHTESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSHTESTING PUSH  TESTING PUSH TESTING PUSH TESTING PUSH
 	
 	
-	
+	*/
 	By UsernameOnlelogin_TextBox = By.id("username");; 
 	By ContinueButtonOneLogin_Button = By.xpath("//button[@class='sc-kTUwUJ blGbUr sc-bdVaJa cVfhXY']");;
 	By PasswordOnelogin_TextBox = By.id("password");;
@@ -45,7 +50,7 @@ public class MainPageRepository_Appium<MobileElement> {
 	By User_Account = By.xpath("//android.view.View[@content-desc=\\\"User Account\\\"]/android.widget.TextView"); 
 	By LoginRegister_Button = By.xpath("//android.view.View[@content-desc=\"LOG IN / REGISTER\"]"); 
 	By ConfirmationLogin_Button = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.view.View[1]/android.widget.Button[1]");
-	By UserName_TextBox = By.id("username");
+	//By UserName_TextBox = By.id("username"); uNCOMMENT AFTER TEST PUSH 
 	public MainPageRepository_Appium(WebDriver driver) {
 		
 		this.driver= driver;
