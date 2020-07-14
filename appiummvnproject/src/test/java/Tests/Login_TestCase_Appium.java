@@ -49,34 +49,13 @@ public class Login_TestCase_Appium {
 		  loginpageobjects_Appium.PositiveButton(); 
 		  loginpageobjects_Appium.ClickSearchBox(); 
 		  loginpageobjects_Appium.URLBAR();
-		  loginpageobjects_Appium.ClickenterAppium();
+		 loginpageobjects_Appium.ClickenterAppium();
 		  
 		  
 		  
 		   
 		  
-		  /*
-		  
-		  MainPageRepository_Appium loginpageobjects_Appium = new MainPageRepository_Appium(driver); 
-			
-		  
-		  loginpageobjects_Appium.ClickEnter();
-			
-			
-			
-			loginpageobjects_Appium.ClickLoginButton();
-			
-			loginpageobjects_Appium.ClickLoginButtonPage1();
-			
-	        loginpageobjects_Appium.SetUsernameOnelogin();  
-	        
-	        
-	        loginpageobjects_Appium.ClickEnter();
-	        
-	        loginpageobjects_Appium.SetPasswordOneLogin();
-	        
-	        loginpageobjects_Appium.ClickEnter();
-	  */
+	
 	     
 	  
 	  
@@ -86,31 +65,7 @@ public class Login_TestCase_Appium {
 	  @Test 
 	  
 	  public void Login_Appium() throws InterruptedException {
-		/*	
-		  Thread.sleep(3000);
-		  MainPageRepository_Appium loginpageobjects_Appium = new MainPageRepository_Appium(driver); 
-			
-		  
-	     	driver.get("https://www.steelcase.com/");
-	     	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-	     	  
-	     	driver.manage().window().maximize();
-			
-			
-			
-			loginpageobjects_Appium.ClickLoginButton();
-			
-			loginpageobjects_Appium.ClickLoginButtonPage1();
-			
-	        loginpageobjects_Appium.SetUsernameOnelogin();  
-	        
-	        
-	        loginpageobjects_Appium.ClickEnter();
-	        
-	        loginpageobjects_Appium.SetPasswordOneLogin();
-	        
-	        loginpageobjects_Appium.ClickEnter();
-	      */  
+
 	     
 	        
 			

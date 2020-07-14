@@ -27,7 +27,7 @@ public class MainPageRepository_Appium<MobileElement> {
 	By Positive_Button = By.id("com.android.chrome:id/positive_button"); 
 	By Search_Box = By.id("com.android.chrome:id/search_box_text"); 
 	By URL_Bar = By.id("com.android.chrome:id/url_bar"); 
-	By Enter_Key = ByAccessibilityId("Card Menu");
+	By Enter_Key = By.xpath("//android.widget.ImageView[@content-desc=\"Card Menu\"]");
 	
 	By Login_Button = By.xpath("//a[@class='trigger-signup login-link']");    
 	By Login_Button_Page1 = By.xpath("//button[@class='vex-open vex-login button-blue']"); 
@@ -42,8 +42,10 @@ public class MainPageRepository_Appium<MobileElement> {
 	By PasswordOnelogin_TextBox = By.id("password");;
 	
 	
-	
-	
+	By User_Account = By.xpath("//android.view.View[@content-desc=\\\"User Account\\\"]/android.widget.TextView"); 
+	By LoginRegister_Button = By.xpath("//android.view.View[@content-desc=\"LOG IN / REGISTER\"]"); 
+	By ConfirmationLogin_Button = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[5]/android.view.View[2]/android.view.View[1]/android.widget.Button[1]");
+	By UserName_TextBox = By.id("username");
 	public MainPageRepository_Appium(WebDriver driver) {
 		
 		this.driver= driver;
