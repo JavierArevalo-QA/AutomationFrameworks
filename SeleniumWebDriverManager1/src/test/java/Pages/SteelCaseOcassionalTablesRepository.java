@@ -25,6 +25,7 @@ public class SteelCaseOcassionalTablesRepository {
 	
 	By ForLegsTableStock = By.xpath("//span[contains(text(),'4 Leg')]");  
 	
+	
 	public SteelCaseOcassionalTablesRepository(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 	
