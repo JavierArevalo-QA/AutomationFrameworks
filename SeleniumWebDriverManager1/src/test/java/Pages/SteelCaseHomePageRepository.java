@@ -16,9 +16,10 @@ public class SteelCaseHomePageRepository {
 
 	
 
-	private static WebDriver driver; 
-	
-	By Login_Button = By.xpath("//a[@class='trigger-signup login-link']");    
+	private static WebDriver driver;  
+    
+	By Accept_AllCokies = By.id("onetrust-accept-btn-handler");	
+	By Login_Button = By.xpath("//body/div[@id='page']/section[1]/div[1]/nav[1]/ol[2]/li[1]/a[1]");    
 	By Login_Button_Page1 = By.xpath("//button[@class='vex-open vex-login button-blue']"); 
 	By Password_TextBox = By.name("password");  
 	
@@ -38,7 +39,12 @@ public class SteelCaseHomePageRepository {
 		// TODO Auto-generated constructor stub
 	}
 
-
+public void ClickAcceptAllcookiesbutton() {  
+	WebDriverWait wait = new WebDriverWait(driver, 15);
+	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("onetrust-accept-btn-handler")));  
+	
+	driver.findElement(Accept_AllCokies).click();
+}
 
 public void ClickLoginButton() { 
 	

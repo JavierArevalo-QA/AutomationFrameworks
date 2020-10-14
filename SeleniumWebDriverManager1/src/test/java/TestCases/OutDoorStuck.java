@@ -52,7 +52,7 @@ public void OutDoorStuck() {
 	 	driver.manage().window().maximize();
 		
 		
-		
+	 	loginpageobjects.ClickAcceptAllcookiesbutton();
 		loginpageobjects.ClickLoginButton();
 		
 		loginpageobjects.ClickLoginButtonPage1();

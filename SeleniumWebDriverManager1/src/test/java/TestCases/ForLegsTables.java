@@ -54,7 +54,7 @@ public class ForLegsTables {
  	
  	driver.manage().window().maximize();
 	
-	
+ 	loginpageobjects.ClickAcceptAllcookiesbutton();
 	
 	loginpageobjects.ClickLoginButton();
 	

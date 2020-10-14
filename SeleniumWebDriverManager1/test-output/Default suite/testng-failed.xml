@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.ForLegsTables">
+      <class name="TestCases.OutDoorStuck">
         <methods>
-          <include name="FourLegsTables"/>
           <include name="TestSetUp"/>
+          <include name="OutDoorStuck"/>
         </methods>
-      </class> <!-- TestCases.ForLegsTables -->
+      </class> <!-- TestCases.OutDoorStuck -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

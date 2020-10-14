@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61288" started-at="2020-10-05T19:20:16 CDT" finished-at="2020-10-05T19:21:17 CDT">
+  <suite name="Default suite" duration-ms="33329" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:44 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61288" started-at="2020-10-05T19:20:16 CDT" finished-at="2020-10-05T19:21:17 CDT">
-      <class name="TestCases.OutDoorStuck">
-        <test-method status="PASS" signature="TestSetUp()[pri:0, instance:TestCases.OutDoorStuck@5faeada1]" name="TestSetUp" is-config="true" duration-ms="5232" started-at="2020-10-05T19:20:16 CDT" finished-at="2020-10-05T19:20:21 CDT">
+    <test name="Default test" duration-ms="33329" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:44 CDT">
+      <class name="TestCases.ForLegsTables">
+        <test-method status="PASS" signature="TestSetUp()[pri:0, instance:TestCases.ForLegsTables@5faeada1]" name="TestSetUp" is-config="true" duration-ms="5537" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetUp -->
-        <test-method status="PASS" signature="OutDoorStuck()[pri:0, instance:TestCases.OutDoorStuck@5faeada1]" name="OutDoorStuck" duration-ms="56007" started-at="2020-10-05T19:20:21 CDT" finished-at="2020-10-05T19:21:17 CDT">
+        <test-method status="PASS" signature="FourLegsTables()[pri:0, instance:TestCases.ForLegsTables@5faeada1]" name="FourLegsTables" duration-ms="27729" started-at="2020-10-13T22:06:16 CDT" finished-at="2020-10-13T22:06:44 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OutDoorStuck -->
-      </class> <!-- TestCases.OutDoorStuck -->
+        </test-method> <!-- FourLegsTables -->
+      </class> <!-- TestCases.ForLegsTables -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

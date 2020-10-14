@@ -54,7 +54,7 @@ public class Login {
      	
      	driver.manage().window().maximize();
 		
-		
+     	loginpageobjects.ClickAcceptAllcookiesbutton();
 		
 		loginpageobjects.ClickLoginButton();
 		

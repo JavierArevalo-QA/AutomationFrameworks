@@ -49,7 +49,7 @@ public class ModularStuck {
 	 	
 	 	driver.manage().window().maximize();
 		
-		
+	 	loginpageobjects.ClickAcceptAllcookiesbutton();
 		
 		loginpageobjects.ClickLoginButton();
 		
