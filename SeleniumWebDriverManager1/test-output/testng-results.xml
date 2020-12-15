@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33329" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:44 CDT">
+  <suite name="Default suite" duration-ms="20683" started-at="2020-11-25T15:43:38 CST" finished-at="2020-11-25T15:43:59 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33329" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:44 CDT">
-      <class name="TestCases.ForLegsTables">
-        <test-method status="PASS" signature="TestSetUp()[pri:0, instance:TestCases.ForLegsTables@5faeada1]" name="TestSetUp" is-config="true" duration-ms="5537" started-at="2020-10-13T22:06:11 CDT" finished-at="2020-10-13T22:06:16 CDT">
+    <test name="Default test" duration-ms="20683" started-at="2020-11-25T15:43:38 CST" finished-at="2020-11-25T15:43:59 CST">
+      <class name="TestCases.Login">
+        <test-method status="PASS" signature="TestSetUp()[pri:0, instance:TestCases.Login@262b2c86]" name="TestSetUp" is-config="true" duration-ms="7308" started-at="2020-11-25T15:43:38 CST" finished-at="2020-11-25T15:43:45 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetUp -->
-        <test-method status="PASS" signature="FourLegsTables()[pri:0, instance:TestCases.ForLegsTables@5faeada1]" name="FourLegsTables" duration-ms="27729" started-at="2020-10-13T22:06:16 CDT" finished-at="2020-10-13T22:06:44 CDT">
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:TestCases.Login@262b2c86]" name="TestLogin" duration-ms="12281" started-at="2020-11-25T15:43:45 CST" finished-at="2020-11-25T15:43:58 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FourLegsTables -->
-      </class> <!-- TestCases.ForLegsTables -->
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="FinishTest()[pri:0, instance:TestCases.Login@262b2c86]" name="FinishTest" is-config="true" duration-ms="1054" started-at="2020-11-25T15:43:58 CST" finished-at="2020-11-25T15:43:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTest -->
+      </class> <!-- TestCases.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
