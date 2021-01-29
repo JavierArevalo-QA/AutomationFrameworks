@@ -9,7 +9,7 @@ import junit.framework.Assert;
 public class SeleniumTestJavaRepositpry {
 
 	private WebDriver driver; 
-	
+	//testing commits
 	By Select_SamsungGalaxyS6 = By.linkText("Samsung galaxy s6"); 
 	By AddtoCart_Button = By.linkText("Add to cart");
 	By OpeningCart_Button = By.linkText("Cart");
