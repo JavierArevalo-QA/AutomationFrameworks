@@ -17,3 +17,4 @@
 [0123/072321.186:ERROR:crash_report_database_win.cc(585)] GetFileAttributes C:\Users\JAVIER~1.ARE\AppData\Local\Temp\scoped_dir8136_954527250\Crashpad: The system cannot find the file specified. (0x2)
 [0123/072350.657:ERROR:crash_report_database_win.cc(585)] GetFileAttributes C:\Users\JAVIER~1.ARE\AppData\Local\Temp\scoped_dir8604_1839189555\Crashpad: The system cannot find the file specified. (0x2)
 [0123/072425.430:ERROR:crash_report_database_win.cc(585)] GetFileAttributes C:\Users\JAVIER~1.ARE\AppData\Local\Temp\scoped_dir11568_750724893\Crashpad: The system cannot find the file specified. (0x2)
+[0324/123852.925:ERROR:crash_report_database_win.cc(585)] GetFileAttributes C:\Users\JAVIER~1.ARE\AppData\Local\Temp\scoped_dir4844_440356907\Crashpad: The system cannot find the file specified. (0x2)
